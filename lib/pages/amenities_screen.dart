@@ -22,7 +22,7 @@ class _AmenitiesScreenState extends State<AmenitiesScreen> {
       ..initialize().then((_) {
         setState(() {
           _controller.setLooping(true); // Loop the video
-          // _controller.play(); // Start playing the video automatically
+          _controller.play(); // Start playing the video automatically
         });
       });
   }
